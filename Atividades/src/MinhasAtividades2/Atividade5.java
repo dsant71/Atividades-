@@ -30,7 +30,7 @@ public class Atividade5 {
      
      
      
-     
+     teclado.close();
      
      
      

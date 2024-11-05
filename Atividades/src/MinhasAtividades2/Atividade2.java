@@ -32,7 +32,7 @@ public class Atividade2 {
                                        
 	    System.out.println("Eu sou FERA nas continhas e o resultado é " + R); 
 	
-                                       
+        teclado.close();                               
 	}
 
 

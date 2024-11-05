@@ -31,27 +31,12 @@ public class Atividade3 {
 	            
 	            
 	            System.out.println(linha);
+	       
+	          
 	        }
-	    }
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-
-	 
-	            
-	        public static void main(String[] args) {
+	   }
+	
+	    public static void main(String[] args) {
 	        Scanner teclado = new Scanner(System.in);
 	        
 	        System.out.println("Qual deve ser a altura da pirâmide? (número ente 1 e 20)");

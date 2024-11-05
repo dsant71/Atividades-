@@ -13,6 +13,11 @@ public class Atividade4 {
 	    titas = teclado.nextInt();
 	   int tropas = (titas-20)/5; 
 	    System.out.println("O número de soldados necessários será:" + tropas);
+	
+	    teclado.close();
+	
 	}
 
+
+	
 }
