@@ -21,12 +21,12 @@ public class Atividade3 {
 	                linha += "#";
 	            }
 	            
-	            for (int j = 0; j < i; j++) {
+	            for (int j = 1; j < i; j++) {
 	                linha += "#";
 	            }
 	            
 	            for (int j = 0; j < P - i; j++) {
-	                linha += ">";
+	                linha += "<";
 	            } 
 	            
 	            

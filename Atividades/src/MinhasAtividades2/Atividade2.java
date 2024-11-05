@@ -35,5 +35,5 @@ public class Atividade2 {
         teclado.close();                               
 	}
 
-
+ 
 }
