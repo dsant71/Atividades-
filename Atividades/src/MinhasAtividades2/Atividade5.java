@@ -10,6 +10,7 @@ public class Atividade5 {
  
 		int x1, y1, x2, y2; 
  
+
  System.out.println("Insira a longitude do local de entrega.");
      x1 = teclado.nextInt();
  System.out.println("Insira a latitude do local de entrega.");    

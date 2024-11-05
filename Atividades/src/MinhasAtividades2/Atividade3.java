@@ -33,6 +33,21 @@ public class Atividade3 {
 	            System.out.println(linha);
 	        }
 	    }
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
 
 	 
 	            
