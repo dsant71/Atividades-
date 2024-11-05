@@ -30,7 +30,7 @@ public class Atividade2 {
                                        F = teclado.nextInt();
         R = ((A+B)*(C-D)*(E+F)/2); 
                                        
-	    System.out.println("Eu sou FERA nas continhas e o resultado é %d" + R); 
+	    System.out.println("Eu sou FERA nas continhas e o resultado é " + R); 
 	
                                        
 	}
