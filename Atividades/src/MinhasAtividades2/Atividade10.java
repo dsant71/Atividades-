@@ -18,14 +18,18 @@ public class Atividade10 {
         	
         	 System.out.println("Insira o lado que o atacante driblou (d para direita, e para esquerda):");
              drible = teclado.next();
+             
              System.out.println("Insira o lado que o zagueiro bloqueou (d para direita, e para esquerda):");
-             bloqueio = teclado.next();
-             drible = drible.toLowerCase();
-             bloqueio = bloqueio.toLowerCase();
-             if ((drible.equals("d") || bloqueio.equals("d")) && (drible.equals("e") || bloqueio.equals("e"))) {
+            
+             	bloqueio = teclado.next();
+             	drible = drible.toLowerCase();
+             	bloqueio = bloqueio.toLowerCase();
+             	
+             if ((drible.equals("d") || bloqueio.equals("d")) && (drible.equals("e") || bloqueio.equals("e"))) 
+             	{
                  if ((drible.equals("d") && bloqueio.equals("d")) || (drible.equals("e") && bloqueio.equals("e"))) {
                  System.out.println("O atacante não conseguiu finalizar");
-                 } else  {
+                } else  {
                  
                  System.out.println("Insira o lado que o atacante chutou (d para direita, e para esquerda):");
                  chute = teclado.next();
