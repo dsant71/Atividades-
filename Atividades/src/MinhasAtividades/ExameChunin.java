@@ -4,7 +4,7 @@ package MinhasAtividades;
 
 import java.util.Scanner;
 
-public class Atividade1 {
+public class ExameChunin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
