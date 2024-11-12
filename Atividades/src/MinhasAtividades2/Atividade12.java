@@ -1,10 +1,25 @@
 package MinhasAtividades2;
-
+import java.util.Scanner;
 public class Atividade12 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	Scanner teclado = new Scanner (System.in);
+	int F, G;
+	int totalBolinhas = 0;	
+		System.out.println("Insira o número de familiares e o número de bolinhas de gude que o primeiro familiar deu, respectivamente. ");
+			F = teclado.nextInt();
+			G= teclado.nextInt();
+			
+			for (int i = 0; i < F; i++) {
+	            totalBolinhas += G * (int)Math.pow(2, i);
+	        }
+		
+	
+			System.out.println(totalBolinhas);
+	
+	
+	teclado.close();
+	
 	}
 
 }
