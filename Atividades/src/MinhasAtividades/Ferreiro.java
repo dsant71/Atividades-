@@ -13,8 +13,8 @@ public class Ferreiro {
           	madeira = teclado.nextInt();
           	couro = teclado.nextInt(); 
           	
-          	if (metal < 2) {
-                System.out.println("Não será possível produzir nenhuma espada.");
+		          	if (metal < 2) {
+		                System.out.println("Não será possível produzir nenhuma espada.");
           			
           			} else if (madeira < 3) {
           			    System.out.println("Não será possível produzir nenhuma espada.");
@@ -35,11 +35,5 @@ public class Ferreiro {
 	
 	
 	
-	
-	
-	
-	
 	}
-	
-
 }
