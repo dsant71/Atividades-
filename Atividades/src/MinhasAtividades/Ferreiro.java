@@ -16,12 +16,20 @@ public class Ferreiro {
 		          	if (metal < 2) {
 		                System.out.println("Não será possível produzir nenhuma espada.");
           			
-          			} else if (madeira < 3) {
+		          	
+		          	
+		          	
+		          	
+		          	} else if (madeira < 3) {
           			    System.out.println("Não será possível produzir nenhuma espada.");
           			
           			} else if (couro < 5) {
           				 System.out.println("Não será possível produzir nenhuma espada.");
           
+          			} else if (metal > madeira && metal > madeira) {
+          				quantidade = madeira/3;
+       				   System.out.println("Será possível produzir " + quantidade + " espada(s).");	
+	          	
           			} else if (couro > metal) {
         	  
           			  quantidade = metal/2;
@@ -30,8 +38,9 @@ public class Ferreiro {
           			} else if (metal >= couro) {
           				quantidade = couro/5;
           				   System.out.println("Será possível produzir " + quantidade + " espada(s).");	
-          				
-          			}
+          			
+       				
+       			}
 	
 	
 	
