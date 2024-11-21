@@ -27,16 +27,17 @@ public class InventarioCaotico {
             inventario.add(item);} 
         
         System.out.println("");
-        System.out.println("Insira o nome do item que você está procurando:");
+        System.out.println("Insira o nome do item que você está procurando:"); 
         itemProcurado = teclado.nextLine();
         
      
-        if (inventario.contains(itemProcurado)) {
-            System.out.println("O item está presente no seu inventário");
-        } else {
-            System.out.println("O item não está presente no seu inventário");
-        }
+        		if (inventario.contains(itemProcurado)) {
+        			System.out.println("O item está presente no seu inventário");
+        		} else {
+        			System.out.println("O item não está presente no seu inventário");
+        		}
         
         teclado.close();
-        }
+        
+    	}
     }
