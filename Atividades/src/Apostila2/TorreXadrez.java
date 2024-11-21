@@ -17,7 +17,7 @@ public class TorreXadrez {
             }
         }
         
-        System.out.println("Insira o mapa do tabuleiro");
+        System.out.println("Insira o mapa do tabuleiro (0 para posição vazia, 1 para peças aliadas e 2 para peças inimigas)");
         
         int x = teclado.nextInt();
         int y = teclado.nextInt();

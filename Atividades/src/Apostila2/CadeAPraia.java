@@ -9,16 +9,15 @@ public class CadeAPraia {
         System.out.println("Digite o mapa 10x10 (use '*' para água e 't' para terra):");
         for (int i = 0; i < 10; i++) {
             String linha = scanner.nextLine();
-            String[] caracteres = linha.split(" "); // Dividir a linha pelos espaços
+            String[] caracteres = linha.split(" "); 
             for (int j = 0; j < 10; j++) {
-                mapa[i][j] = caracteres[j].charAt(0); // Pegar o primeiro caractere de cada parte
+                mapa[i][j] = caracteres[j].charAt(0); 
             }
         }
 
         char[][] novoMapa = transformarPraia(mapa);
 
-        // Imprimir o mapa corrigido
-        System.out.println("Mapa corrigido:");
+                System.out.println("Mapa corrigido:");
         for (char[] linha : novoMapa) {
             for (char c : linha) {
                 System.out.print(c + " ");
@@ -32,18 +31,18 @@ public class CadeAPraia {
         int m = mapa[0].length;
         char[][] novoMapa = new char[n][m];
 
-        // Copiar o mapa original para o novo mapa
+       
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 novoMapa[i][j] = mapa[i][j];
             }
         }
 
-        // Verificar cada posição do mapa
+       
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (mapa[i][j] == 't') {
-                    // Verificar se está em contato direto com a água
+                   
                     if (ehAgua(mapa, i - 1, j) || ehAgua(mapa, i + 1, j) || ehAgua(mapa, i, j - 1) || ehAgua(mapa, i, j + 1)) {
                         novoMapa[i][j] = 'p';
                     }
