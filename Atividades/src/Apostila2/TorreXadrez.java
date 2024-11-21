@@ -17,7 +17,8 @@ public class TorreXadrez {
             }
         }
         
-       
+        System.out.println("Insira o mapa do tabuleiro");
+        
         int x = teclado.nextInt();
         int y = teclado.nextInt();
         
@@ -37,10 +38,10 @@ public class TorreXadrez {
         int adversarios = 0;
 
         int[][] direcoes = {
-            {-1, 0},  // Cima
-            {1, 0},   // Baixo
-            {0, -1},  // Esquerda
-            {0, 1}    // Direita
+            {-1, 0},  
+            {1, 0},   
+            {0, -1},  
+            {0, 1}   
         };
 
         for (int[] direcao : direcoes) {
